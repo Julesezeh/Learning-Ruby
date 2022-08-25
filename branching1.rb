@@ -6,7 +6,7 @@ x = gets.chomp
 puts "Enter the second number:"
 y = gets.chomp
 puts "What do you want to do?"
-puts "Choose 1 to multiply , 2 for addition ans 3 for subtraction"
+puts "Choose 1 to multiply , 2 for addition ,and 3 for subtraction"
 choice = gets.chomp
 def multiply(x, y)
 	x.to_f * y.to_f
