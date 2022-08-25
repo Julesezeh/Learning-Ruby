@@ -1,1 +1,1 @@
-scripts i created while learning ruby
+scripts created while learning ruby
