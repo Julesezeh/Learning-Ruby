@@ -38,8 +38,8 @@ puts
 #Execution flow
 loop {
   puts " Do you want to look up an area code?(Y?N)"
-  ans = gets.chomp
-  break if ans == 'y'
+  ans = gets.chomp.downcase
+  break if ans != 'y'
   puts "Enter a city name to look up"
   puts "Available cities are: "
   #puts dial_book.keys
