@@ -25,7 +25,7 @@ def get_area_code(some_hash,key)
       return "\nThe area code of the selected city is #{y}\n\n"
     end
   end
-  "\nInvalid selection\n\n"
+  "\nInvalid selection\n\n" #This can be done with the .include?() method on the hash in the main loop"
 end
 
 puts
